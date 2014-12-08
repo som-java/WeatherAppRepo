@@ -1,0 +1,19 @@
+body {
+	background-color: #eee;
+}
+
+.InnerContainer {
+	background-color:#FFF;
+	margin:8px;
+	padding:10px;
+}
+
+.ApplicationHeading {
+	padding:0px;
+	margin:0px;
+	margin-bottom:8px;
+	font-size:150%;
+}
+input.ng-invalid.ng-touched {
+    background-color: 'red';
+}

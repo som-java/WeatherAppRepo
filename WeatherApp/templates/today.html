@@ -1,0 +1,38 @@
+			<div id="WeatherToday">
+				<h3>Today's Report</h3>
+				<select id="todayLocation" class="form-control"  ng-model="selectedvalue" ng-change="todayLocation(selectedvalue)">
+					
+				</select>
+				<br/><br/>
+		
+					<table class="table table-striped">
+					<tbody>
+						<tr>
+							<td>Report</td>
+							<td id="currentIcon"></td>
+						</tr>				
+						<tr>
+							<td>City</td>
+							<td id="currentCity"></td>
+						</tr>
+						<tr>
+							<td>Weather</td>
+							<td id="currentWeather"></td>
+						</tr>	
+						<tr>
+							<td>Temp</td>
+							<td id="currentTemp"></td>
+						</tr>
+						<tr>
+							<td>Max Temp</td>
+							<td id="currentTempMax"></td>
+						</tr>	
+						<tr>
+							<td>Min Temp</td>
+							<td id="currentTempMin"></td>
+						</tr>
+					</tbody>
+					
+				</table>
+				
+			</div>
